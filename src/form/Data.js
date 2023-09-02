@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Formpage.css"
 class Data extends Component{
-    constructor(){
+    constructor(props){
         super(props)
     }
      
