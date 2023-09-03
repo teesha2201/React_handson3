@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import "./Formpage.css"
 class Data extends Component{
- 
-        super(props)
-   
      
     render(){
         return(
