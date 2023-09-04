@@ -44,12 +44,7 @@ class Formpage extends Component
             alert("Blank Form Can't Accepted")
         }
     
-    }
-       
-        
-       // console.log(this.state.empDataStore)
-       
-    
+    }   
     toggleFun = ()=>{
         this.setState ({pageDirect: !this.state.pageDirect})
        
@@ -73,7 +68,6 @@ class Formpage extends Component
                     <button onClick={this.handleSubmit}>Submit</button>
                 </form>
                 :<Data value={this.state.empDataStore} value1={this.toggleFun}/>}
-                        
                    
             </>
         )
